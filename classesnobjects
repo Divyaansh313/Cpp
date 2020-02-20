@@ -1,0 +1,36 @@
+//Using classes and objects, store the data of students
+
+#include <iostream>
+using namespace std ;
+class student
+{
+	public:
+		string name;
+		int id;
+		float gpa;
+
+};
+int main()
+{
+	student s1;
+	student s2;
+
+	s1.name="Divyaansh";
+	s1.id = 40;
+	s1.gpa = 7.7;
+
+	s2.name="Akash";
+	s2.id = 10;
+	s2.gpa = 8.5;
+
+	cout<<"name :"<<s1.name<<endl;
+	cout<<"id :"<<s1.id<<endl;
+	cout<<"gpa :"<<s1.gpa<<endl;
+
+	cout<<"name :"<<s2.name<<endl;
+	cout<<"id :"<<s2.id<<endl;
+	cout<<"gpa :"<<s2.gpa<<endl;
+
+	return 0;
+
+}
