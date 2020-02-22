@@ -57,3 +57,10 @@ class CALC
 		}
         }
 };
+
+int main()
+        {
+        	CALC c1;
+        	c1.display();
+        	return 0;
+		}
