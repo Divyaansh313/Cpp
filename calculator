@@ -1,0 +1,28 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+class CALC
+{
+        public:
+                int a, b;
+
+        void sum()
+        {
+        	int sum;
+                sum = a + b;
+        }
+        void diff()
+        {
+        	int diff;
+                diff = a - b;
+        }
+        void multiply()
+        {
+        	int multiply;
+                multiply = a * b;
+        }
+        void divide()
+        {
+        	int divide;
+                divide = a / b;
+        }
