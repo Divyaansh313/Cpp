@@ -1,1 +1,30 @@
 //Write a program to write Arithmetic Progression
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+int a, d, n;
+
+cout<<"Enter the first element of an AP "<<endl;
+cin>>a;
+cout<<"Enter the difference of the AP "<<endl;
+cin>>d;
+cout<<"Enter number of terms of the AP "<<endl;
+cin>>n;
+int arr[n];
+int i;
+
+for(i=1;i<=n;i++)
+{
+	arr[i]=a;
+	a=a+d;
+	cout<<"  "<<arr[i];
+
+}
+return 0;
+}
+
+
