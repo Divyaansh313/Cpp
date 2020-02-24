@@ -1,1 +1,37 @@
 //Write to compare areas of shapes
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+class SHAPE
+{private:
+	float ar=314,pc,pr,ps,pt;
+
+	public:
+void circle()
+{
+    float rad=sqrt(ar/3.14);
+	pc=2*3.14*rad;
+
+    }
+void rectangle()
+{
+float l=2,b;
+b=ar/l;
+ pr=2*(l+b);
+
+	}
+void square()
+{
+float side=sqrt(ar);
+ps=4*side;
+
+	}
+void triangle()
+{
+float h=4,b,H;
+b=ar*2/h;
+H=sqrt(h*h+b*b);
+pt=h+b+H;
+
+	}
