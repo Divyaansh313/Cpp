@@ -78,3 +78,13 @@ cout<<"pt is smallest";
 
 		}
 }s;
+
+int main()
+{
+s.circle();
+s.rectangle();
+s.square();
+s.triangle();
+s.result();
+	return 0;
+}
