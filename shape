@@ -35,3 +35,46 @@ H=sqrt(h*h+b*b);
 pt=h+b+H;
 
 	}
+
+
+
+void result()
+{
+
+	if(pc>pr&&pc>ps&&pc>pt)
+{
+cout<<"pc is greatest";
+
+	}
+	else if(ps>pr&&ps>pc&&ps>pt)
+{
+cout<<"ps is greatest";
+	}
+	else if(pr>pc&&pr>ps&&pr>pt)
+{
+cout<<"pr is greatest";
+	}
+	else if(pt>pr&&pt>ps&&pt>pc)
+{
+cout<<"pt is greatest";
+	}
+		cout<<endl;		if(pc<pr&&pc<ps&&pc<pt)
+{
+cout<<"pc is smallest";
+
+	}
+	else if(ps<pr&&ps<pc&&ps<pt)
+{
+cout<<"ps is smallest";
+	}
+	else if(pr<pc&&pr<ps&&pr<pt)
+{
+cout<<"pr is smallest";
+	}
+	else if(pt<pr&&pt<ps&&pt<pc)
+{
+cout<<"pt is smallest";
+	}
+
+		}
+}s;
