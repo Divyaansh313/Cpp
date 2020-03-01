@@ -34,3 +34,24 @@ class operations
            }
        }
     }
+
+        void delete()
+    {
+        if(start==rear)
+        {
+            cout<<"QUEUE IS EMPTY";
+        }
+        else
+        {   int n;
+            cout<<"ENTER HOW MANY ELEMENTS TO BE DELETED \n";
+            cin>>n;
+
+
+            for(i=0;i<n;i++)
+            {
+                cout<<"DELETED ELEMENT ="<<array[start]<<"\n";
+                array[i]=array[i+1];
+                start++;
+            }
+        }
+    }
