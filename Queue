@@ -12,3 +12,25 @@ class operations
     int start=0;
     int rear=0;
     int array[CAPACITY];
+
+        void enter()
+    {
+       if(rear==CAPACITY)
+       {
+           cout<<"QUEUE IS FULL";
+       }
+       else
+       {
+           int n;
+
+           for(i=0;i<CAPACITY;i++)
+           {
+               cout<<"ENTER ELEMENTS \n";
+            cin>>n;
+            cout<<"\n";
+            array[rear]=n;
+            rear++;
+
+           }
+       }
+    }
