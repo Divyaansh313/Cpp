@@ -1,1 +1,14 @@
 //Program to implement queue
+
+#include<iostream>
+#define CAPACITY 5
+using namespace std;
+
+class operations
+{private:
+    int i;
+ public:
+
+    int start=0;
+    int rear=0;
+    int array[CAPACITY];
