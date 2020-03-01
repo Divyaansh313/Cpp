@@ -55,3 +55,17 @@ class operations
             }
         }
     }
+
+        void display()
+    {
+        cout<<"ELEMENTS ARE \n";
+        for(i=0;i<CAPACITY;i++)
+           {
+               cout<<array[i]<<"\n";
+               }
+    }
+
+
+
+
+};
