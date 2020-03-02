@@ -60,4 +60,9 @@ class external
     float phye;
     float bee;
 };
-
+class result : public internal,public external,public students
+{
+protected :
+    float resulta;
+    float resultp;
+    float resultb;
