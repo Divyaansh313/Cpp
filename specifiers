@@ -66,3 +66,17 @@ protected :
     float resulta;
     float resultp;
     float resultb;
+
+    int main()
+{
+    result r1;
+    r1.student_detail();
+    r1.internal_marks();
+    r1.showinternal();
+    r1.external_marks();
+    r1.showexternal();
+    r1.display_result();
+
+    return 0;
+
+}
