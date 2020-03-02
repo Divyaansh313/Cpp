@@ -34,3 +34,9 @@ public:
         cout<<"PHY ="<<phy<<"\n";
         cout<<"BE ="<<be<<"\n";
     }
+    protected :
+    float ads;
+    float phy;
+    float be;
+};
+
