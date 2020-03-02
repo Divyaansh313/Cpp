@@ -12,3 +12,9 @@ public:
         cin>>name>> roll_no>>gender;
 
         }
+
+	protected :
+    char name[20];
+    int roll_no;
+    char gender;
+};
