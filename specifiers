@@ -1,1 +1,14 @@
 //Problem related to specifiers
+
+#include<iostream>
+using namespace std;
+
+class students
+{
+public:
+   void student_detail()
+    {
+        cout<<"ENTER THE DETAILS (NAME , ROLL NO , GENDER) \n";
+        cin>>name>> roll_no>>gender;
+
+        }
