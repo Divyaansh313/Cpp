@@ -18,3 +18,19 @@ public:
     int roll_no;
     char gender;
 };
+class internal
+{
+public:
+    void internal_marks()
+    {
+        cout<<"ENTER THE INTERNAL MARKS OF ADS , PHY , BE \n";
+        cin>>ads>>phy>>be;
+    }
+
+    void showinternal()
+    {
+        cout<<"YOUR INTERNAL MARKS ARE \n";
+        cout<<"ADS ="<<ads<<"\n";
+        cout<<"PHY ="<<phy<<"\n";
+        cout<<"BE ="<<be<<"\n";
+    }
