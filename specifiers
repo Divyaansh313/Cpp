@@ -55,3 +55,9 @@ class external
         cout<<"PHY ="<<phye<<"\n";
         cout<<"BE ="<<bee<<"\n";
     }
+    protected :
+    float adse;
+    float phye;
+    float bee;
+};
+
