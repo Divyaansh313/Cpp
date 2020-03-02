@@ -39,4 +39,19 @@ public:
     float phy;
     float be;
 };
+class external
+{
+    public:
+    void external_marks()
+    {
+        cout<<"ENTER THE EXTERNAL MARKS OF ADS , PHY , BE \n";
+        cin>>adse>>phye>>bee;
+    }
 
+    void showexternal()
+    {
+        cout<<"YOUR EXTERNAL MARKS ARE \n";
+        cout<<"ADS ="<<adse<<"\n";
+        cout<<"PHY ="<<phye<<"\n";
+        cout<<"BE ="<<bee<<"\n";
+    }
