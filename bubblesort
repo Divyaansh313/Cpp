@@ -32,3 +32,13 @@ while(x<5)
 cout<<s[x]<<"\n";
 x++;
 }
+
+
+cout<<"Floating array in ascending order:"<<endl;
+while(y<5)
+{
+cout<<c[y]<<"\n";
+y++;
+}
+return 0;
+}
