@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class Matrix
+{
+	int a[2][2];
+	
+	public:
+	void get()
+	{
+		cout<<"Enter the 4 elements of 2X2 matrix"<<endl;
+		for(int r=0; r<2; r++)
+		for(int c=0; c<2; c++)
+			cin>> a[r][c];
+	}
