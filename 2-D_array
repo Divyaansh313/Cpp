@@ -12,3 +12,11 @@ class Matrix
 		for(int c=0; c<2; c++)
 			cin>> a[r][c];
 	}
+
+		void operator +(Matrix o)
+	{
+		int sum[2][2];
+		Matrix obj;
+		for(int r=0; r<2; r++)
+		for(int c=0; c<2; c++)
+			sum[r][c]=a[r][c] + obj.a[r][c];
