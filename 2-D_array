@@ -20,3 +20,13 @@ class Matrix
 		for(int r=0; r<2; r++)
 		for(int c=0; c<2; c++)
 			sum[r][c]=a[r][c] + obj.a[r][c];
+
+		cout<<"Sum of matrices: "<<endl;
+		for(int r=0; r<2; r++)
+		{
+			for(int c=0; c<2; c++)
+				cout<< sum[r][c]<<"\t";
+			cout<<endl;
+		}
+	}
+};
