@@ -31,3 +31,12 @@ class Matrix
 		}
 	}
 };
+int main()
+{
+	Matrix o1, o2;
+	o1.get();
+	o2.get();
+	o1+o2;
+	return 0;
+}
+
