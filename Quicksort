@@ -23,3 +23,12 @@ int partition(int *a,int start,int end)
       a[j]=p;
       return j;
  }
+  void Quicksort(int *a,int start,int end)
+ {
+    if(start<end)
+    {
+         int j=partition(a,start,end);
+             Quicksort(a,start,j-1);
+             Quicksort(a,j+1,end);
+    }
+}
