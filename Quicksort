@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int partition(int *a,int start,int end)
+{
+    int pivot=a[end];
+    
+    int j=start;
+    int i,p; 
+    
+    for(i=start;i<end;i++)
+    {
+    	if(a[i]<=pivot)
+        {
+            p=a[i];
+            a[i]=a[j];
+            a[j]=p;
+            j++;
+        }
+     }
+     
+      p=a[end];
+      a[end]=a[j];
+      a[j]=p;
+      return j;
+ }
