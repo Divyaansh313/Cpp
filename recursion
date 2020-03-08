@@ -1,1 +1,16 @@
 //Implementing a program of factorial using recursion
+#include <iostream>
+using namespace std;
+
+class Fact
+{
+	public:
+		int n;
+		public:
+		Fact(int num)
+		{
+			int fct;
+			fct=factorial(num);
+			cout<<"Factorial is: "<<fct<<endl;
+
+		}
