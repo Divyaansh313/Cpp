@@ -1,1 +1,17 @@
 //Program to demonstrate acids and molecular masses
+
+#include <iostream>
+using namespace std;
+class hydrogen;
+class sulphur;
+class oxygen
+{
+private:
+    float mm_oxygen;
+public:
+    oxygen()
+    {
+        mm_oxygen=15.999;
+    }
+    friend void chemical_compound(oxygen,hydrogen,sulphur);
+};
