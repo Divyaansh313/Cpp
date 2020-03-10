@@ -37,3 +37,15 @@ public:
     }
     friend void chemical_compound(oxygen,hydrogen,sulphur);
 };
+void chemical_compound(oxygen o,hydrogen h,sulphur s)
+{
+    float sulphuric_acid;
+    float thiosulphuric_acid;
+    float sulphurous_acid;
+    sulphuric_acid=((2*h.mm_hydrogen)+(s.mm_sulphur)+(4*o.mm_oxygen));
+    thiosulphuric_acid=((2*h.mm_hydrogen)+(2*s.mm_sulphur)+(3*o.mm_oxygen));
+    sulphurous_acid=((2*h.mm_hydrogen)+(s.mm_sulphur)+(3*o.mm_oxygen));
+    cout<<"Molecular mass of sulphuric acid:      "<<sulphuric_acid<<endl;
+    cout<<"Molecular mass of thiosulphuric acid:  "<<thiosulphuric_acid<<endl;
+    cout<<"Molecular mass of sulphurous acid:     "<<sulphurous_acid<<endl;
+}
