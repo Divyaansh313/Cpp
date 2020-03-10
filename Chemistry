@@ -15,3 +15,14 @@ public:
     }
     friend void chemical_compound(oxygen,hydrogen,sulphur);
 };
+class hydrogen
+{
+private:
+    float mm_hydrogen;
+public:
+    hydrogen()
+    {
+        mm_hydrogen=1.00794;
+    }
+    friend void chemical_compound(oxygen,hydrogen,sulphur);
+};
