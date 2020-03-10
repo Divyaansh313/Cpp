@@ -26,3 +26,14 @@ public:
     }
     friend void chemical_compound(oxygen,hydrogen,sulphur);
 };
+class sulphur
+{
+private:
+    float mm_sulphur;
+public:
+    sulphur()
+    {
+        mm_sulphur=98.709f;
+    }
+    friend void chemical_compound(oxygen,hydrogen,sulphur);
+};
