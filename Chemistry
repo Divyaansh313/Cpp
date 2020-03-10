@@ -49,3 +49,12 @@ void chemical_compound(oxygen o,hydrogen h,sulphur s)
     cout<<"Molecular mass of thiosulphuric acid:  "<<thiosulphuric_acid<<endl;
     cout<<"Molecular mass of sulphurous acid:     "<<sulphurous_acid<<endl;
 }
+int main()
+{
+    oxygen o;
+    hydrogen h;
+    sulphur s;
+    chemical_compound(o,h,s);
+    return(0);
+}
+
