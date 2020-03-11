@@ -30,3 +30,14 @@ class Temp: public Temperature
 		}
 
 };
+
+int main()
+{
+	cout<< "Enter the temperature in Celcius : ";
+	float ct;
+	cin>>ct;
+	Temp t(ct);
+	t.Temperature::calculate();
+	t.calculate();
+
+}
