@@ -1,1 +1,19 @@
 //Program to convert temperature
+
+#include<iostream>
+using namespace std;
+
+class Temperature
+{
+	protected:
+		float c,f;
+	public:
+		Temperature(float x){
+			c=x;
+		}
+		void calculate(){
+			f=c*4.5+32;
+			cout<< "Temperature in Fahrenheit : "<<f<<endl;
+		}
+
+};
