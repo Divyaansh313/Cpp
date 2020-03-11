@@ -17,3 +17,16 @@ class Temperature
 		}
 
 };
+
+class Temp: public Temperature
+{
+	protected:
+		float k;
+	public:
+		Temp(float x):Temperature(x){}
+		void calculate(){
+			k=273+(f-32)/4.5;
+			cout<< "Temperature in Kelvin : "<<k<<endl;
+		}
+
+};
