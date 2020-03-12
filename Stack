@@ -19,3 +19,14 @@ stack()
 {
 top=-1;
 }
+void push(T a)
+{
+if(top==CAPACITY-1)
+{
+    cout<<"STACK OVERFLOW"<<endl;
+}
+else
+{
+    top++;
+    arr[top]=a;
+}
