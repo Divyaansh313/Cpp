@@ -30,3 +30,15 @@ else
     top++;
     arr[top]=a;
 }
+void pop()
+{
+if(top==-1)
+{
+cout<<"STACK UNDERFLOW"<<endl;
+}
+else
+{
+arr[top]=NULL;
+top--;
+cout<<"Element is popped\n";
+}}
