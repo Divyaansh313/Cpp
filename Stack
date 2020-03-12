@@ -1,1 +1,21 @@
 //Problem to implement stack
+
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+
+#define CAPACITY 4
+
+template <class T>
+class stack
+{
+protected:
+T arr[CAPACITY];
+
+public:
+T item ,r;
+int top;
+stack()
+{
+top=-1;
+}
