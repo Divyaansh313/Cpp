@@ -42,3 +42,14 @@ arr[top]=NULL;
 top--;
 cout<<"Element is popped\n";
 }}
+void traverse()
+{
+if(top==-1)
+cout<<"Nothing to display"<<endl;
+else
+{
+for(int x=0;x<=top;x++)
+cout<<arr[x]<<endl;
+}
+}
+};
