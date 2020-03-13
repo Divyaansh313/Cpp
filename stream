@@ -1,1 +1,14 @@
 //program for ifstream and ofstream
+
+#include<fstream>
+#include<string.h>
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+ofstream fout;
+fout.open("colosseum.txt",ios::app);
+fout<< "\n Writing to a file opened from program.\n";
+fout.close();
