@@ -25,3 +25,6 @@ file>>x;
 if(strcmp(x,c)==0)
 count++;
 }
+cout<<"No. of occurrences="<<count<<"\n";
+file.close();
+}
