@@ -12,3 +12,10 @@ ofstream fout;
 fout.open("colosseum.txt",ios::app);
 fout<< "\n Writing to a file opened from program.\n";
 fout.close();
+
+ifstream file;
+file.open("colosseum.txt");
+char x[1500],c[15];
+int count=0;
+cout<<"Enter a word to count"<<endl;
+cin>>c;
