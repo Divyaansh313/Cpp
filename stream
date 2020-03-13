@@ -19,3 +19,9 @@ char x[1500],c[15];
 int count=0;
 cout<<"Enter a word to count"<<endl;
 cin>>c;
+while(file)
+{
+file>>x;
+if(strcmp(x,c)==0)
+count++;
+}
