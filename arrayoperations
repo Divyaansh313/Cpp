@@ -48,6 +48,13 @@ int main(void)
     cout<<"Enter the number which you want to enter"<<endl;
     cin>>in_elmt;
     insert(arr, n, position, in_elmt);
+        cout<<"This your modified array:-->"<<endl;
+    search(arr, n);
+    cout<<"Enter the position where you want to delete data :-->"<<endl;
+    cin>>position;
+    cout<<"The new modified array"<<endl;
+    delete_elmt(arr, n ,position);
+    return 0;
 }
 
 
