@@ -23,3 +23,16 @@ int insert(int arr[], int n, int position, int in_elmt)
     arr[position-1]=in_elmt;
 }
 
+int delete_elmt(int arr[], int n, int position)
+{
+    int b,c;
+    for(b=0;b<=position-2;b++)
+    {
+        cout<<arr[b]<<endl;
+    }
+
+    for(c=position;c<=n;c++)
+    {
+        cout<<arr[c]<<endl;
+    }
+}
