@@ -12,3 +12,14 @@ int search(int arr[], int n)
     }
 
 }
+
+int insert(int arr[], int n, int position, int in_elmt)
+{
+    int a;
+    for(a=n; a>=position-1; a--)
+    {
+        arr[a+1]=arr[a];
+    }
+    arr[position-1]=in_elmt;
+}
+
