@@ -43,4 +43,11 @@ int main(void)
     int arr[] = { 2, 3, 4, 10, 40 };
     int n = sizeof(arr) / sizeof(arr[0]);
     search(arr, n);
+        cout<<"you want to insert the element in the array then enter the position where you want to enter:-->"<<endl;
+    cin>>position;
+    cout<<"Enter the number which you want to enter"<<endl;
+    cin>>in_elmt;
+    insert(arr, n, position, in_elmt);
 }
+
+
