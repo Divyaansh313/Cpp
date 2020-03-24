@@ -12,3 +12,22 @@ float print_series( float a, float d)
         cout<<T<<endl;
     }
 }
+
+int main()
+{
+    float i,j,a,d,Ti,Tj;
+    cout<<"Enter the ith value of the series-->"<<endl;
+    cin>>i;
+    cout<<"Enter the jth value of the series-->"<<endl;
+    cin>>j;
+    cout<<"Enter the Ti Tearm of the series-->"<<endl;
+    cin>>Ti;
+    cout<<"Enter the Tj Tearm of the series-->"<<endl;
+    cin>>Tj;
+    a=(Ti*j-Ti-Tj*i+Tj)/(j-i);
+    d=(Ti-a)/(i-1);
+    cout<<"First Tearmm ="<<a<<endl;
+    cout<<"Common Difference ="<<d<<endl;
+    print_series( a, d);
+
+}
