@@ -1,1 +1,14 @@
 //Program to print series arithmetic progression
+
+#include<iostream>
+using namespace std;
+float print_series( float a, float d)
+{
+    int n;
+    float T;
+    for ( n=1; n<11; n++)
+    {
+        T=a+(n-1)*d;
+        cout<<T<<endl;
+    }
+}
