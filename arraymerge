@@ -1,1 +1,13 @@
 //Program to merge two arrays of different size
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,k,p;
+    int arr1[5],arr2[6],arr3[12];
+    cout<<"Enter the values in array1 of size 5"<<endl;
+    for (i=0;i<5;i++)
+    {
+        cin>>arr1[i];
+    }
