@@ -11,3 +11,9 @@ int main()
     {
         cin>>arr1[i];
     }
+
+        cout<<"Enter the values in array2 of size 6"<<endl;
+    for (j=0;j<6;j++)
+    {
+        cin>>arr2[j];
+    }
