@@ -17,3 +17,17 @@ int main()
     {
         cin>>arr2[j];
     }
+
+        cout<<"The merged array is -->"<<endl;
+    for (k=0;k<5;k++)
+    {
+        arr3[k]=arr1[k];
+        cout<<arr3[k]<<endl;
+    }
+    for (k=5,p=0;k<11,p<6;k++,p++)
+    {
+        arr3[k]=arr2[p];
+        cout<<arr3[k]<<endl;
+    }
+    return 0;
+}
